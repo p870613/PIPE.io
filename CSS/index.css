@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    margin: auto; 
+
+}
+.container ul{
+    margin:0;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+header{
+    box-shadow: 0 3px 5px #cccccc;
+    padding:9px 0px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.navbar{
+    list-style-type: none;
+    font-size: 12px;
+}
+
+li.navitem{
+    display: inline;
+    border-right: 1px solid;
+}
+
+li.navitem a{
+    padding: 0 9px 0 9px;
+    color:#555555;
+}
+
+li.navitem a:link{
+    text-decoration: none;   
+}
+li.navitem a:hover{
+    text-decoration: underline;
+    color: #0654BA;
+}
+iframe{
+    height: 100%;
+    width: 15%;
+}
