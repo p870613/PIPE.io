@@ -42,5 +42,25 @@ li.navitem a:hover{
 }
 iframe{
     height: 100%;
-    width: 15%;
+    width: 100%;
 }
+
+#pine_set{
+    margin-left: 25%;
+}
+
+#column1{
+    width:15%;
+    
+    float:left;
+}
+
+#column2{
+    width: 85%;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
