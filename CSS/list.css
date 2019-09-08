@@ -4,7 +4,7 @@
     float: left;
 }
 .container ul{
-    margin:0;
+    margin:10px 0 0 0;
     height: 100%;
 }
 
@@ -17,9 +17,14 @@ body{
 }
             
 .navbar{
-    font-size: 12px;
+    padding-top: 20px; 
 }
 
+.navitem{
+    font-size: 16px;
+    line-height: 24px;
+
+}
 li.navitem a{
     padding: 0 9px 0 9px;
     color:#555555;
