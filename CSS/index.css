@@ -16,6 +16,8 @@ header{
 
     position: fixed;
     z-index: 1;
+    overflow: hidden;
+    background: white;
 }
 
 
@@ -48,14 +50,14 @@ iframe{
 }
 
 #pine_set{
-    margin-top:-15%;
+    margin-top:-10%;
     margin-left: 25%;
+    width:50%;
 }
 
 #column1{
     width:15%;
     height: 100%;
-    float:left;
     position: fixed;
     margin-top:37px;
 }
@@ -70,9 +72,13 @@ iframe{
 
 #column2{
     margin-left: 15%; 
+    float:left;
     width: 85%;
 }
 
+#web_content{
+    padding-left: 10%;
+}
 .clearfix{
     clear: both;
 }
