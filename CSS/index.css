@@ -6,25 +6,27 @@
 .container ul{
     margin:0;
 }
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0;
+    background-color: #F0C0C0;
 }
-header{
+header {
     box-shadow: 0 3px 5px #cccccc;
-    padding:9px 0px;
-
+    padding: 9px 0px;
     position: fixed;
     z-index: 1;
     overflow: hidden;
     background: white;
+    background-color: #479c25;
 }
 
 
 
-.navbar{
+.navbar {
     list-style-type: none;
     font-size: 12px;
+    
 }
 
 li.navitem{
@@ -55,11 +57,12 @@ iframe{
     width:50%;
 }
 
-#column1{
-    width:15%;
+#column1 {
+    width: 15%;
     height: 100%;
     position: fixed;
-    margin-top:37px;
+    margin-top: 37px;
+    background-color: #DBBAA2;
 }
 
 #column1 div{
@@ -70,10 +73,11 @@ iframe{
     height:100%;
 }
 
-#column2{
-    margin-left: 15%; 
-    float:left;
+#column2 {
+    margin-left: 15%;
+    float: left;
     width: 85%;
+    
 }
 
 #web_content{
