@@ -9,15 +9,15 @@
 body{
     margin:0;
     padding: 0;
+    background-color: #F0C0C0;
 }
 header{
     box-shadow: 0 3px 5px #cccccc;
-    padding:9px 0px;
-
+    height: 36px;
     position: fixed;
     z-index: 1;
     overflow: hidden;
-    background: white;
+    background: #479c25;
 }
 
 
@@ -26,10 +26,21 @@ header{
     list-style-type: none;
     font-size: 12px;
 }
-
-li.navitem{
+li embed{
+    height: 200%;
+    margin-top: -20px;
+}
+li.navimg{
+    float: left;
     display: inline;
-    border-right: 1px solid;
+    margin: 0;
+    padding: 0;
+}
+li.navitem{
+    padding:10px 10px;
+    float: right;
+    display: inline;
+    border:none;
 }
 
 li.navitem a{
@@ -49,17 +60,12 @@ iframe{
     width: 100%;
 }
 
-#pine_set{
-    margin-top:-10%;
-    margin-left: 25%;
-    width:50%;
-}
-
 #column1{
     width:15%;
     height: 100%;
     position: fixed;
     margin-top:37px;
+    background-color: #DBBAA2;
 }
 
 #column1 div{
@@ -71,13 +77,17 @@ iframe{
 }
 
 #column2{
-    margin-left: 15%; 
+    /*margin-left: 15%; */
+    margin-top:40px;
+    margin-left: 17%;
     float:left;
     width: 85%;
 }
 
-#web_content{
-    padding-left: 10%;
+#pine_set{
+    margin-top:-10%;
+    margin-left: 25%;
+    width:50%;
 }
 .clearfix{
     clear: both;
