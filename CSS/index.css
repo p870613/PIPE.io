@@ -6,6 +6,9 @@
 .container ul{
     margin:0;
 }
+.clearfix{
+    clear: both;
+}
 body{
     margin:0;
     padding: 0;
@@ -20,8 +23,12 @@ header{
     background: #479c25;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0;
+}
 
-
+/*nav*/
 .navbar{
     list-style-type: none;
     font-size: 12px;
@@ -55,29 +62,51 @@ li.navitem a:hover{
     text-decoration: underline;
     color: #0654BA;
 }
-iframe{
-    height: 100%;
-    width: 100%;
-}
 
+/*list*/
 #column1{
     width:15%;
     height: 100%;
     position: fixed;
     margin-top:37px;
     background-color: #DBBAA2;
+    float: left;
 }
-
 #column1 div{
     display: inline;
 }
-#set_iframe{
-    width: 100%;
-    height:100%;
+
+.listbar{
+    padding-top: 20px; 
+    padding-left: 10px;
 }
 
+.listitem{
+    border:none;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+li.listitem a{
+    color:#555555;
+}
+
+li.listitem a:link{
+    text-decoration: none; 
+}
+
+li.listitem a:hover{
+    text-decoration: underline;
+    color: #0654BA;
+}
+
+.set_li_position{
+    padding-left: 20px;
+}
+
+/*content*/
+
 #column2{
-    /*margin-left: 15%; */
     margin-top:40px;
     margin-left: 17%;
     float:left;
@@ -89,7 +118,37 @@ iframe{
     margin-left: 25%;
     width:50%;
 }
-.clearfix{
-    clear: both;
+
+#set_ath_img{
+    width: 75%;
+    margin-left: 5%; 
+}
+.content{
+    padding-left: 5%; 
+}
+.set_content_title_font_size{
+    font-size:24px;
 }
 
+#set_upload_page{
+    width: 75%;
+
+}
+
+/* 是窗縮放*/
+/* @media screen and (max-width: 800px) {
+    
+    .menubtn_div{
+      display:inline-block;
+      padding-right:20px;
+       左邊動態留白，讓寬度變動
+      padding-left:calc(100% - 150px - 20px - 40px); 
+    }
+    
+    .menubtn_div > div{
+      border:1px solid black;
+    }
+
+    
+    ul{display:none;}
+}*/
