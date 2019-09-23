@@ -174,7 +174,7 @@ li.listitem a:hover{
 @media screen and (max-width: 768px) {
  
     #column1{
-        width:25%;
+        width:30%;
         height: 100%;
         position: fixed;
         margin-top:37px;
@@ -184,9 +184,9 @@ li.listitem a:hover{
 
     #column2{
         margin-top:40px;
-        margin-left: 27%;
+        margin-left: 32%;
         float:left;
-        width: 75%;
+        width: 70%;
     }
 
     .listitem{
