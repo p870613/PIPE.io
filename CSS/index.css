@@ -32,7 +32,7 @@ ul{
 /*nav*/
 .navbar{
     list-style-type: none;
-    font-size: 12px;
+    font-size: 16px;
 }
 li embed{
     height: 200%;
@@ -53,7 +53,7 @@ li.navitem{
 
 li.navitem a{
     padding: 0 9px 0 9px;
-    color:#555555;
+    color:white;
 }
 
 li.navitem a:link{
@@ -61,7 +61,7 @@ li.navitem a:link{
 }
 li.navitem a:hover{
     text-decoration: underline;
-    color: #0654BA;
+    color: yellow;
 }
 
 /*list*/
@@ -113,7 +113,7 @@ li.listitem a:hover{
     margin-top:40px;
     margin-left: 17%;
     float:left;
-    width: 85%;
+    width: 83%;
 }
 
 #pine_set{
@@ -188,7 +188,7 @@ li.listitem a:hover{
         margin-top:40px;
         margin-left: 32%;
         float:left;
-        width: 70%;
+        width: 68%;
     }
 
     .listitem{
@@ -222,7 +222,7 @@ li.listitem a:hover{
         margin-top:40px;
         margin-left: 32%;
         float:left;
-        width: 70%;
+        width: 68%;
     }
 
     .listitem{
