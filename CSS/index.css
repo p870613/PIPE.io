@@ -6,32 +6,48 @@
 .container ul{
     margin:0;
 }
-body {
-    margin: 0;
+.clearfix{
+    clear: both;
+}
+body{
+    margin:0;
     padding: 0;
     background-color: #F0C0C0;
 }
-header {
+header{
     box-shadow: 0 3px 5px #cccccc;
-    padding: 9px 0px;
+    height: 36px;
     position: fixed;
     z-index: 1;
     overflow: hidden;
-    background: white;
-    background-color: #479c25;
+    background: #479c25;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0;
+}
 
-
-.navbar {
+/*nav*/
+.navbar{
     list-style-type: none;
     font-size: 12px;
-    
 }
-
-li.navitem{
+li embed{
+    height: 200%;
+    margin-top: -20px;
+}
+li.navimg{
+    float: left;
     display: inline;
-    border-right: 1px solid;
+    margin: 0;
+    padding: 0;
+}
+li.navitem{
+    padding:10px 10px;
+    float: right;
+    display: inline;
+    border:none;
 }
 
 li.navitem a{
@@ -46,9 +62,55 @@ li.navitem a:hover{
     text-decoration: underline;
     color: #0654BA;
 }
-iframe{
+
+/*list*/
+#column1{
+    width:15%;
     height: 100%;
-    width: 100%;
+    position: fixed;
+    margin-top:37px;
+    background-color: #DBBAA2;
+    float: left;
+}
+#column1 div{
+    display: inline;
+}
+
+.listbar{
+    padding-top: 20px; 
+    padding-left: 10px;
+}
+
+.listitem{
+    border:none;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+li.listitem a{
+    color:#555555;
+}
+
+li.listitem a:link{
+    text-decoration: none; 
+}
+
+li.listitem a:hover{
+    text-decoration: underline;
+    color: #0654BA;
+}
+
+.set_li_position{
+    padding-left: 20px;
+}
+
+/*content*/
+
+#column2{
+    margin-top:40px;
+    margin-left: 17%;
+    float:left;
+    width: 85%;
 }
 
 #pine_set{
@@ -57,33 +119,40 @@ iframe{
     width:50%;
 }
 
-#column1 {
-    width: 15%;
-    height: 100%;
-    position: fixed;
-    margin-top: 37px;
-    background-color: #DBBAA2;
+#set_ath_img{
+    width: 75%;
+    margin-left: 5%; 
+}
+.content{
+    padding-left: 5%; 
+}
+.pic_content {
+    padding-left: 5%;
+    font-size: 16px;
+}
+.set_content_title_font_size{
+    font-size:24px;
 }
 
-#column1 div{
-    display: inline;
-}
-#set_iframe{
-    width: 100%;
-    height:100%;
+#set_upload_page{
+    width: 75%;
+
 }
 
-#column2 {
-    margin-left: 15%;
-    float: left;
-    width: 85%;
+/* 是窗縮放*/
+/* @media screen and (max-width: 800px) {
     
-}
+    .menubtn_div{
+      display:inline-block;
+      padding-right:20px;
+       左邊動態留白，讓寬度變動
+      padding-left:calc(100% - 150px - 20px - 40px); 
+    }
+    
+    .menubtn_div > div{
+      border:1px solid black;
+    }
 
-#web_content{
-    padding-left: 10%;
-}
-.clearfix{
-    clear: both;
-}
-
+    
+    ul{display:none;}
+}*/
