@@ -142,7 +142,7 @@ li.listitem a:hover{
 
 }
 
-
+/*網頁縮小至768*/
 @media screen and (max-width: 768px) {
  
     #column1{
@@ -168,6 +168,39 @@ li.listitem a:hover{
     .set_content_title_font_size{
         font-size:16px;
     }
-    
+}
 
+/*網頁縮小至500*/
+@media screen and (max-width: 768px) {
+ 
+    #column1{
+        width:25%;
+        height: 100%;
+        position: fixed;
+        margin-top:37px;
+        background-color: #DBBAA2;
+        float: left;
+    }
+
+    #column2{
+        margin-top:40px;
+        margin-left: 27%;
+        float:left;
+        width: 75%;
+    }
+
+    .listitem{
+        border:none;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .pic_content {
+        padding-left: 5%;
+        font-size: 12px;
+    }
+    
+    .set_content_title_font_size{
+        font-size:16px;
+    }
 }
