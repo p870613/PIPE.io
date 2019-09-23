@@ -81,6 +81,7 @@ li.navitem a:hover{
     padding-left: 10px;
 }
 
+/*list 文字*/
 .listitem{
     border:none;
     font-size: 16px;
@@ -126,33 +127,47 @@ li.listitem a:hover{
 .content{
     padding-left: 5%; 
 }
+/*圖片*/
 .pic_content {
     padding-left: 5%;
     font-size: 16px;
 }
+/*文字*/
 .set_content_title_font_size{
     font-size:24px;
 }
 
-#set_upload_page{
+.set_upload_page{
     width: 75%;
 
 }
 
-/* 是窗縮放*/
-/* @media screen and (max-width: 800px) {
-    
-    .menubtn_div{
-      display:inline-block;
-      padding-right:20px;
-       左邊動態留白，讓寬度變動
-      padding-left:calc(100% - 150px - 20px - 40px); 
-    }
-    
-    .menubtn_div > div{
-      border:1px solid black;
+
+@media screen and (max-width: 768px) {
+ 
+    #column1{
+        width:20%;
+        height: 100%;
+        position: fixed;
+        margin-top:37px;
+        background-color: #DBBAA2;
+        float: left;
     }
 
+    .listitem{
+        border:none;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .pic_content {
+        padding-left: 5%;
+        font-size: 12px;
+    }
     
-    ul{display:none;}
-}*/
+    .set_content_title_font_size{
+        font-size:16px;
+    }
+    
+
+}
